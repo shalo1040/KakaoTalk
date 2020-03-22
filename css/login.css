@@ -38,6 +38,7 @@ div {
 #logo {
 	width: 120px;
 	height: 120px;
+	margin-bottom: 30px;
 }
 
 #id, #pass {
