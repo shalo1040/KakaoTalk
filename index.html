@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Kakao Talk Clone Project</title>
 	<link rel="stylesheet" type="text/css" href="./css/login.css">
+	<script src="./js/login.js"></script>
 </head>
 <body>
 	<header>
@@ -11,9 +12,11 @@
 	</header>
 	<section>
 		<img id="logo" src="./img/kakaoLogo.png" alt="kakaoLogo.png"><br>
-		<input type="text" id="id">
-		<input type="password" id="pass"><br>
-		<input type="submit" id="button" value="Log in"><br>
+		<form name="loginForm" method="post" action="main.html">
+			<input type="text" id="id"><br>
+			<input type="password" id="pass"><br><br>
+			<input type="submit" id="button" value="Log in"><br>
+		</form>
 		<div>
 			<input type="checkbox" name="checkbox">
 			<label for="checkbox">Automatically log in and lock<br></label>

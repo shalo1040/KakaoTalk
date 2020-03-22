@@ -1,0 +1,25 @@
+* {margin: 0; padding: 0;}
+
+body {
+	display: flex;
+}
+.left {
+	width: 100px;
+	background-color: gray;
+	align-items: center;
+	border: 5px solid blue;
+}
+
+.right {
+	background-color: #FFFFFF;
+	border: 5px solid pink;
+}
+
+#top {
+	margin-bottom: 100px;
+	
+}
+
+#bottom {
+
+}
