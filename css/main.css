@@ -3,14 +3,43 @@
 body {
 	display: flex;
 	font-family: "Arial";
+	font-size: 20px;
 }
 
-div {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin-left: 10px;
-	margin-right: 10px;
+input {
+	float: left;
+	margin-top: 20px;
+	width: 350px;
+	background-color: #F0F0F0;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	border-radius: 25px;
+	outline: none;
+}
+
+hr {
+	width: 408px;
+	background-color: gray;
+}
+
+.friend {
+	margin: 20px 0px 20px 0px;
+}
+
+#profile {
+	background-color: pink;
+	width: 80px;
+	height: 80px;
+	border-radius: 30px;
+	display: inline-block;
+}
+
+#name {
+	position: relative;
+	left: 20px;
+	bottom: 30px;
+	display: inline-block;
 }
 .left {
 	background-color: #DBDBDB;
@@ -19,6 +48,7 @@ div {
 .right {
 	margin-top: 40px;
 	margin-left: 20px;
+	padding-left: 10px;
 	width: 100%;
 	background-color: #FFFFFF;
 }
@@ -26,8 +56,18 @@ div {
 #top {
 	margin-top: 40px;
 	margin-bottom: 245px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #bottom {
 	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
